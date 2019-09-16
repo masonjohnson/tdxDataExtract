@@ -87,7 +87,7 @@ catch{
 
 
 ############### TD Ticketing Settings ###############
-## Table for storing TD Time Entries
+## Table for storing TD Tickets
 [string]$ticketsTable = 'tickets'
 
 ## Table for storing TD Ticket Attributes
@@ -103,8 +103,7 @@ catch{
 
 ##### Ticketing Application IDs #####
 ## Create a variable for each application. This makes it easy to identify the ID without having to check TD.
-## CTS Tickets AppID
-[string]$ticketingAppID = 190
+[string]$ticketingAppID = 0
 
 ## Add the variable you created for the ticketing application to the array of all application IDs
 $appIDs = @($ticketingAppID)
