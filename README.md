@@ -35,7 +35,7 @@ Edit the connectionSettings.ps1 file:
 - Set `$mySQLPassword` to your MySQL password
 - Set `$mySQLDatabase` to your MySQL database
   - \(Optional\) If you changed the table names, be sure to edit the rest of the table variables. Otherwise, leave them as is.
-- Set `ticketingAppID` to your TeamDynamix Ticketing App ID
+- Set `$ticketingAppID` to your TeamDynamix Ticketing App ID
   - If you have more than one ticketing app, you can create variables for each one, and add them all to the `$appIDs` list, i.e. -> `$appIDs = @($ticketAppA, $ticketAppB, $ticketAppC)`
 - Be sure to save your changes!
 
