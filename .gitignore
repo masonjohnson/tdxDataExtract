@@ -1,0 +1,5 @@
+.gitignore
+
+Logs/**
+**/**.txt
+connectionSettings.ps1
