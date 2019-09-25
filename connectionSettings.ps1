@@ -19,7 +19,7 @@ function Get-Token{
       [String] $beid,
       [String] $webServicesKey
    )
-   $url = "https://ndus.teamdynamix.com/TDWebApi/api/auth/loginadmin"
+   $url = "https://app.teamdynamix.com/TDWebApi/api/auth/loginadmin"
    
    if ($beid -Like $null){
       $beid = $tdBEID
